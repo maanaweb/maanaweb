@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Виджет опыт танков</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/wargaming.ico">
+    </head>
+
+    <body>
+        <main>
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </article>
+            <section class="content">
+                <div class="tank-container">
+                    <figure class="tank">
+                        <img src="images/tank.svg" alt="Tank">
+                        <figcaption>Т-34</figcaption>
+                    </figure>
+                    <figure class="tank">
+                        <img src="images/tank.svg" alt="Tank">
+                        <figcaption>Т-34</figcaption>
+                    </figure>
+                    <figure class="tank">
+                        <img src="images/tank.svg" alt="Tank">
+                        <figcaption>Т-34</figcaption>
+                    </figure>
+                    <figure class="tank">
+                        <img src="images/tank.svg" alt="Tank">
+                        <figcaption>Т-34</figcaption>
+                    </figure>
+                    <figure class="tank">
+                        <img src="images/tank.svg" alt="Tank">
+                        <figcaption>Т-34</figcaption>
+                    </figure>
+                    <figure class="tank">
+                        <img src="images/tank.svg" alt="Tank">
+                        <figcaption>Т-34</figcaption>
+                    </figure>
+                </div>
+                <div class="widget">
+                    <div class="configuration-container">
+                        <p class="header">Комлектация</p>
+                        <div class="configurations">
+                            <label><input type="radio" name="configuration" value="basic" checked> Стандартная</label>
+                            <label><input type="radio" name="configuration" value="elite"> Элитная</label>
+                            <label><input type="radio" name="configuration" value="premium"> Премиум</label>
+                        </div>
+                    </div>
+
+                    <div class="battle-container">
+                        <p class="battle-header header">Количество боёв</p>
+                        <div class="battle-range-container">
+                            <input type="range" class="battle-range" min="0" max="300">
+                        </div>
+                        <input type="text" class="battle-count">
+                        <p class="warning">Введите число от 0 до 300</p>
+                    </div>
+                    
+                    <div class="tank-experience-container">
+                        <p class="header">Опыт танка</p>
+                        <div class="tank-experience">
+                            <img src="images/star.svg" alt="Star">
+                            <p class="tank-experience-count">0</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside> </aside>
+        </main>
+        <section class="additional-section">
+        </section>
+        <footer> 
+            <p>Created by Anna Mazeina for Wargaming</p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
